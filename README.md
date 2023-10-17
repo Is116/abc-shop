@@ -71,13 +71,13 @@ Set up your database configuration in the .env file:
 
 Run the migrations and seed the database:
 
-bash
-
-php artisan migrate --seed
+    bash
+    
+    php artisan migrate --seed
 
 Start the development server:
 
-bash
+    bash
 
     php artisan serve
 
@@ -85,9 +85,9 @@ bash
 
 Usage
 
-    Manage Categories: Create, edit, and delete product categories.
+Manage Categories: Create, edit, and delete product categories.
 
-    Manage Products: Add, update, and delete products, associating them with categories.
+Manage Products: Add, update, and delete products, associating them with categories.
 
 <p align="center"><img src="screenshots/ss1.png" width="100%" alt="ss1"></p>
 <br/><br/>

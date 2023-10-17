@@ -89,9 +89,9 @@ Usage
 
     Manage Products: Add, update, and delete products, associating them with categories.
 
-<p align="center"<img src="screenshots/ss1.png" width="400" alt="ss1"></p>
-
-<p align="center"><img src="screenshots/ss2.png" width="400" alt="ss2"></p>
+<p align="center"><img src="screenshots/ss1.png" width="100%" alt="ss1"></p>
+<br/><br/>
+<p align="center"><img src="screenshots/ss2.png" width="100%" alt="ss2"></p>
     
 
 This project is open-source and available under the MIT License.

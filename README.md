@@ -36,38 +36,38 @@ git clone https://github.com/Is116/abc-shop.git
 
 Navigate to the project directory:
 
-bash
-
-cd abc-shop
+    bash
+    
+    cd abc-shop
 
 Install the required packages:
 
-bash
-
-composer install
-
-Create a .env file by copying the example:
-
-bash
-
-cp .env.example .env
+    bash
+    
+    composer install
+    
+    Create a .env file by copying the example:
+    
+    bash
+    
+    cp .env.example .env
 
 Generate an application key:
 
-bash
-
-php artisan key:generate
+    bash
+    
+    php artisan key:generate
 
 Set up your database configuration in the .env file:
-
-env
-
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=your_database_name
-DB_USERNAME=your_database_username
-DB_PASSWORD=your_database_password
+    
+    env
+    
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=your_database_name
+    DB_USERNAME=your_database_username
+    DB_PASSWORD=your_database_password
 
 Run the migrations and seed the database:
 
